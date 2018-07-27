@@ -37,7 +37,7 @@ function storeFront() {
             ])
             .then(answers => {
                 res.forEach(product => {
-                    if((answers.item == product.id)&&(product.stock_quantity>=answers.quantity)){
+                    if((answers.item == product.id)){
                         connection.query(
                             "UPDATE products SET ? WHERE ?",
                             [
