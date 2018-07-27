@@ -12,4 +12,7 @@ then type in the id of the item you'd like to buy, and then the quantity when pr
 
 ![step 2 success](./demoImages/step2success.JPG)
 
+^this image shows a slightly different readout, notice the line beginnine "You bought x amount of [item]"
+the stock is also updated by the appropriate amount
+
 
